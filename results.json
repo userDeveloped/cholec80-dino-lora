@@ -1,0 +1,332 @@
+{
+ "train": {
+  "baseline": {
+   "tool_mAP": 0.9999991257985432,
+   "tool_mAP_per_seed": [
+    0.999999497617994,
+    0.9999989015715463,
+    0.9999989782060895
+   ],
+   "tool_ap": {
+    "Grasper": 0.9999952713648478,
+    "Bipolar": 0.9999998807907104,
+    "Hook": 0.9999997019767761,
+    "Scissors": 1.0,
+    "Clipper": 0.9999999403953552,
+    "Irrigator": 0.9999990860621134,
+    "SpecimenBag": 1.0
+   },
+   "phase_strict_accuracy": 0.9940082753698031,
+   "phase_strict_precision": 0.9848710849222663,
+   "phase_strict_recall": 0.9948597336056448,
+   "phase_relaxed_accuracy": 0.9960201888331935,
+   "phase_relaxed_precision": 0.9904442706711967,
+   "phase_relaxed_recall": 0.9967679665262913,
+   "phase_relaxed_official": {
+    "accuracy": 0.9960201888331937,
+    "precision": 0.9905691926800769,
+    "recall": 0.9967715566620141
+   }
+  },
+  "stage1": {
+   "tool_mAP": 0.9999853656405494,
+   "tool_mAP_per_seed": [
+    0.9999874404498509,
+    0.9999870317322868,
+    0.9999816247395107
+   ],
+   "tool_ap": {
+    "Grasper": 0.9999743302663168,
+    "Bipolar": 0.9999980330467224,
+    "Hook": 0.9999995032946268,
+    "Scissors": 0.999964714050293,
+    "Clipper": 0.9999941984812418,
+    "Irrigator": 0.9999696612358093,
+    "SpecimenBag": 0.9999971191088358
+   },
+   "phase_strict_accuracy": 0.9950921361645063,
+   "phase_strict_precision": 0.9868305304900291,
+   "phase_strict_recall": 0.9966879431410807,
+   "phase_relaxed_accuracy": 0.9972263466980603,
+   "phase_relaxed_precision": 0.9933156585611855,
+   "phase_relaxed_recall": 0.9980775133109921,
+   "phase_relaxed_official": {
+    "accuracy": 0.9972263466980603,
+    "precision": 0.992948526206551,
+    "recall": 0.9981241418311644
+   }
+  },
+  "baseline_lora": {
+   "tool_mAP": 0.9986604877880642,
+   "tool_mAP_per_seed": [
+    0.9986604877880642
+   ],
+   "tool_ap": {
+    "Grasper": 0.9989335536956787,
+    "Bipolar": 0.9987026453018188,
+    "Hook": 0.999888002872467,
+    "Scissors": 0.9969809055328369,
+    "Clipper": 0.9993585348129272,
+    "Irrigator": 0.997757077217102,
+    "SpecimenBag": 0.9990026950836182
+   },
+   "phase_strict_accuracy": 0.9984416471173366,
+   "phase_strict_precision": 0.9952181579768415,
+   "phase_strict_recall": 0.9991696719910559,
+   "phase_relaxed_accuracy": 0.9994266773000658,
+   "phase_relaxed_precision": 0.9987540699386029,
+   "phase_relaxed_recall": 0.999709084849043,
+   "phase_relaxed_official": {
+    "accuracy": 0.9994266773000658,
+    "precision": 0.9987967938588956,
+    "recall": 0.9997216629438774
+   }
+  },
+  "stage1_lora": {
+   "tool_mAP": 0.9994150655610221,
+   "tool_mAP_per_seed": [
+    0.9994150655610221
+   ],
+   "tool_ap": {
+    "Grasper": 0.9994153380393982,
+    "Bipolar": 0.9995849132537842,
+    "Hook": 0.9999682903289795,
+    "Scissors": 0.9985673427581787,
+    "Clipper": 0.9998863935470581,
+    "Irrigator": 0.9992358684539795,
+    "SpecimenBag": 0.9992473125457764
+   },
+   "phase_strict_accuracy": 0.9987604438016812,
+   "phase_strict_precision": 0.9965259757030378,
+   "phase_strict_recall": 0.9992769792332961,
+   "phase_relaxed_accuracy": 0.9994073413438084,
+   "phase_relaxed_precision": 0.9984957498401384,
+   "phase_relaxed_recall": 0.9996366268285484,
+   "phase_relaxed_official": {
+    "accuracy": 0.9994073413438084,
+    "precision": 0.998564065591472,
+    "recall": 0.9996548590390175
+   }
+  }
+ },
+ "val": {
+  "baseline": {
+   "tool_mAP": 0.8729218528384254,
+   "tool_mAP_per_seed": [
+    0.8716284036636353,
+    0.8717710375785828,
+    0.8753661172730582
+   ],
+   "tool_ap": {
+    "Grasper": 0.9798729419708252,
+    "Bipolar": 0.8883282343546549,
+    "Hook": 0.9935972094535828,
+    "Scissors": 0.6389229893684387,
+    "Clipper": 0.8274191816647848,
+    "Irrigator": 0.8321604331334432,
+    "SpecimenBag": 0.9501519799232483
+   },
+   "phase_strict_accuracy": 0.8929078926642736,
+   "phase_strict_precision": 0.8319999515463248,
+   "phase_strict_recall": 0.8735688277718044,
+   "phase_relaxed_accuracy": 0.9077365799393782,
+   "phase_relaxed_precision": 0.881081968690538,
+   "phase_relaxed_recall": 0.9151955636835862,
+   "phase_relaxed_official": {
+    "accuracy": 0.9077365799393782,
+    "precision": 0.8836988123574198,
+    "recall": 0.9159401180935155
+   }
+  },
+  "stage1": {
+   "tool_mAP": 0.8674981139955066,
+   "tool_mAP_per_seed": [
+    0.8658758742468697,
+    0.8650136504854474,
+    0.8716048172542027
+   ],
+   "tool_ap": {
+    "Grasper": 0.980653981367747,
+    "Bipolar": 0.9224451581637064,
+    "Hook": 0.9965344468752543,
+    "Scissors": 0.5254642367362976,
+    "Clipper": 0.7512584328651428,
+    "Irrigator": 0.9194609721501669,
+    "SpecimenBag": 0.9766695698102316
+   },
+   "phase_strict_accuracy": 0.8884272078673044,
+   "phase_strict_precision": 0.8302726237333018,
+   "phase_strict_recall": 0.8542128772530158,
+   "phase_relaxed_accuracy": 0.9017095410190288,
+   "phase_relaxed_precision": 0.8947746749603851,
+   "phase_relaxed_recall": 0.8934823158281875,
+   "phase_relaxed_official": {
+    "accuracy": 0.9017095410190288,
+    "precision": 0.8968097928115708,
+    "recall": 0.8953683387761338
+   }
+  },
+  "baseline_lora": {
+   "tool_mAP": 0.9456142868314471,
+   "tool_mAP_per_seed": [
+    0.9456142868314471
+   ],
+   "tool_ap": {
+    "Grasper": 0.9898174405097961,
+    "Bipolar": 0.975276529788971,
+    "Hook": 0.9990959167480469,
+    "Scissors": 0.8265317678451538,
+    "Clipper": 0.9457402229309082,
+    "Irrigator": 0.9325326681137085,
+    "SpecimenBag": 0.9503054618835449
+   },
+   "phase_strict_accuracy": 0.8921746661265691,
+   "phase_strict_precision": 0.8555332838978534,
+   "phase_strict_recall": 0.8746119020595249,
+   "phase_relaxed_accuracy": 0.904436937753817,
+   "phase_relaxed_precision": 0.8881339810325586,
+   "phase_relaxed_recall": 0.9098942435899369,
+   "phase_relaxed_official": {
+    "accuracy": 0.904436937753817,
+    "precision": 0.8926095414657407,
+    "recall": 0.9078203531702174
+   }
+  },
+  "stage1_lora": {
+   "tool_mAP": 0.9712519815989903,
+   "tool_mAP_per_seed": [
+    0.9712519815989903
+   ],
+   "tool_ap": {
+    "Grasper": 0.9938212633132935,
+    "Bipolar": 0.9814283847808838,
+    "Hook": 0.9988956451416016,
+    "Scissors": 0.9083020687103271,
+    "Clipper": 0.9670470952987671,
+    "Irrigator": 0.9766367673873901,
+    "SpecimenBag": 0.972632646560669
+   },
+   "phase_strict_accuracy": 0.93777796626091,
+   "phase_strict_precision": 0.8831357148215421,
+   "phase_strict_recall": 0.908081553438436,
+   "phase_relaxed_accuracy": 0.9491031166651611,
+   "phase_relaxed_precision": 0.9286746122140767,
+   "phase_relaxed_recall": 0.939477758934933,
+   "phase_relaxed_official": {
+    "accuracy": 0.9491031166651611,
+    "precision": 0.9317816434906036,
+    "recall": 0.9403086070980007
+   }
+  }
+ },
+ "test": {
+  "baseline": {
+   "tool_mAP": 0.8375688195228577,
+   "tool_mAP_per_seed": [
+    0.8378738846097674,
+    0.8377990637506757,
+    0.8370335102081299
+   ],
+   "tool_ap": {
+    "Grasper": 0.8960145115852356,
+    "Bipolar": 0.8470427592595419,
+    "Hook": 0.98904816309611,
+    "Scissors": 0.6257968544960022,
+    "Clipper": 0.8214482267697653,
+    "Irrigator": 0.7449037035306295,
+    "SpecimenBag": 0.9387275179227194
+   },
+   "phase_strict_accuracy": 0.8222091257572174,
+   "phase_strict_precision": 0.7706028641750614,
+   "phase_strict_recall": 0.8061884789269996,
+   "phase_relaxed_accuracy": 0.8332756682178226,
+   "phase_relaxed_precision": 0.8138315824623591,
+   "phase_relaxed_recall": 0.8410996379123659,
+   "phase_relaxed_official": {
+    "accuracy": 0.8332756682178226,
+    "precision": 0.8118780924903503,
+    "recall": 0.8388548902681284
+   }
+  },
+  "stage1": {
+   "tool_mAP": 0.8444309546833947,
+   "tool_mAP_per_seed": [
+    0.8452016540936061,
+    0.8428956099918911,
+    0.8451955999646869
+   ],
+   "tool_ap": {
+    "Grasper": 0.921621839205424,
+    "Bipolar": 0.8676386475563049,
+    "Hook": 0.9912273287773132,
+    "Scissors": 0.5740652680397034,
+    "Clipper": 0.7898664077123007,
+    "Irrigator": 0.7927095691363016,
+    "SpecimenBag": 0.9738876223564148
+   },
+   "phase_strict_accuracy": 0.8434309040506681,
+   "phase_strict_precision": 0.7825513108199423,
+   "phase_strict_recall": 0.8206188857185204,
+   "phase_relaxed_accuracy": 0.8540456105209441,
+   "phase_relaxed_precision": 0.8249253948894386,
+   "phase_relaxed_recall": 0.8527439864823873,
+   "phase_relaxed_official": {
+    "accuracy": 0.854045610520944,
+    "precision": 0.8240678522498895,
+    "recall": 0.8506229097761119
+   }
+  },
+  "baseline_lora": {
+   "tool_mAP": 0.9109736084938049,
+   "tool_mAP_per_seed": [
+    0.9109736084938049
+   ],
+   "tool_ap": {
+    "Grasper": 0.8991209864616394,
+    "Bipolar": 0.9317409992218018,
+    "Hook": 0.9959516525268555,
+    "Scissors": 0.762427031993866,
+    "Clipper": 0.950754702091217,
+    "Irrigator": 0.8729588985443115,
+    "SpecimenBag": 0.9638609886169434
+   },
+   "phase_strict_accuracy": 0.8507463763157527,
+   "phase_strict_precision": 0.8055061806496341,
+   "phase_strict_recall": 0.8418324998999424,
+   "phase_relaxed_accuracy": 0.858607982266833,
+   "phase_relaxed_precision": 0.8351485178801727,
+   "phase_relaxed_recall": 0.8707312261848144,
+   "phase_relaxed_official": {
+    "accuracy": 0.858607982266833,
+    "precision": 0.8331618218857885,
+    "recall": 0.8689725577787761
+   }
+  },
+  "stage1_lora": {
+   "tool_mAP": 0.9275878582681928,
+   "tool_mAP_per_seed": [
+    0.9275878582681928
+   ],
+   "tool_ap": {
+    "Grasper": 0.8933007121086121,
+    "Bipolar": 0.9522867202758789,
+    "Hook": 0.995867133140564,
+    "Scissors": 0.8333413600921631,
+    "Clipper": 0.9503160715103149,
+    "Irrigator": 0.8947895765304565,
+    "SpecimenBag": 0.9732134342193604
+   },
+   "phase_strict_accuracy": 0.8798368940750758,
+   "phase_strict_precision": 0.8225444600016834,
+   "phase_strict_recall": 0.849388606957363,
+   "phase_relaxed_accuracy": 0.8866925972572904,
+   "phase_relaxed_precision": 0.8524656757227992,
+   "phase_relaxed_recall": 0.8723499843390402,
+   "phase_relaxed_official": {
+    "accuracy": 0.8866925972572904,
+    "precision": 0.8503975720834686,
+    "recall": 0.8718377051191726
+   }
+  }
+ }
+}

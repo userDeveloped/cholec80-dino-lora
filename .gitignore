@@ -1,0 +1,4 @@
+# training outputs: run folders (frames, checkpoints, features, results)
+runs/
+__pycache__/
+.ipynb_checkpoints/
